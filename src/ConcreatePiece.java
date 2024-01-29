@@ -58,7 +58,7 @@ public abstract class ConcreatePiece implements Piece
     }
 
     public Position getFirstPosition() {
-        return this.movesHistory.getFirst();
+        return this.movesHistory.get(0);
     }
 
     public String getTitlePrefix() {
